@@ -101,6 +101,11 @@ public/assets/softwareversion.json
 php bin/console app:import-software
 ```
 
+**User Create Command:**
+```bash
+php bin/console app:create-user
+```
+
 ## Public Software Checker
 
 **URL:** `http://localhost:8000/`
