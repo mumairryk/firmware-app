@@ -32,7 +32,7 @@ A Symfony-based system for managing and distributing firmware updates for CarPla
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/mumairryk/firmware-app.git
 cd firmware-app
 ```
 
