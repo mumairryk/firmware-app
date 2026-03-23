@@ -1,0 +1,18 @@
+{% extends '@EasyAdmin/page/content.html.twig' %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="mb-4">Dashboard</h1>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card text-white bg-primary shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Software Versions</h5>
+                        <p class="card-text display-5">{{ softwareCount }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

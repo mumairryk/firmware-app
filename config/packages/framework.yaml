@@ -1,0 +1,16 @@
+# see https://symfony.com/doc/current/reference/configuration/framework.html
+framework:
+    secret: '%env(APP_SECRET)%'
+
+    # Session config
+    session:
+        enabled: true
+        # "auto" works for both HTTP and HTTPS
+        cookie_secure: auto
+        cookie_samesite: lax
+
+when@test:
+    framework:
+        test: true
+        session:
+            storage_factory_id: session.storage.factory.mock_file
