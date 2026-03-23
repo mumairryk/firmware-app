@@ -71,14 +71,14 @@ php -S 127.0.0.1:8000 -t public
 
 ## Admin Panel
 
-**URL:** `http://localhost:8000/admin`
+**URL:** `http://localhost:8000/login`
 
 ### Default Credentials
 
-| Field | Value |
-|-------|-------|
-| **Email** | admin@example.com |
-| **Password** | 123456 |
+| Field | Value                 |
+|-------|-----------------------|
+| **Email** | admin@bimmer-tech.net |
+| **Password** | Admin123!             |
 
 > ⚠️ **Important:** Change credentials after first login.
 
@@ -103,7 +103,7 @@ php bin/console app:import-software
 
 ## Public Software Checker
 
-**URL:** `http://localhost:8000/software-checker`
+**URL:** `http://localhost:8000/`
 
 ## Sample Inputs
 
